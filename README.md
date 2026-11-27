@@ -49,9 +49,9 @@ externe obligatoire. Le tableau de bord est une page HTML autonome
 Essai rapide (aucune configuration requise) :
 
 ```bash
+python3 generer_donnees.py                   # génère data/carburant.csv (non inclus, régénérable)
 python3 main.py                              # contrôle CSV + rapports + dashboard.html
 python3 -m unittest discover -s tests -v     # tests
-python3 generer_donnees.py                   # régénère le jeu de données de data/
 ```
 
 Ouvrir ensuite `rapports/dashboard.html` dans un navigateur.
@@ -63,6 +63,8 @@ data/engins.csv      code,type,chantier,compteur,conso_ref,tolerance_pct
                      compteur = h  -> référence en L/h
                                 = km -> référence en L/100km
 data/carburant.csv   date,engin,compteur_fin,litres
+                     (non versionné : `python3 generer_donnees.py` le régénère
+                     à l'identique, graine fixe)
 data/config.json     {"prix_litre": 11.5, "devise": "MAD"}  (coût estimé)
 ```
 
@@ -78,7 +80,7 @@ main.py               point d'entrée (contrôle + rapports + tableau de bord)
 carburant.py          règles de contrôle et calculs de consommation
 dashboard.py          génération du tableau de bord HTML autonome
 generer_donnees.py    générateur du jeu de données
-data/*.csv, config    données générées (régénérables)
+data/*.csv, config    données générées (carburant.csv régénérable)
 tests/                tests automatiques (règles + jeu généré)
 rapports/             sorties (ignoré par git)
 ```
