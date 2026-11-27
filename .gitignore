@@ -1,0 +1,4 @@
+rapports/
+data_prive/
+__pycache__/
+*.pyc
