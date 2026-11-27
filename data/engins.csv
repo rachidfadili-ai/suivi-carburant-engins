@@ -1,0 +1,49 @@
+code,type,chantier,compteur,conso_ref,tolerance_pct
+PEL-01,Pelle,CH-NORD,h,18.7,12
+PEL-02,Pelle,CH-SUD,h,15.3,12
+PEL-03,Pelle,CH-EST,h,21.4,12
+PEL-04,Pelle,BASE VIE,h,14.3,12
+PEL-05,Pelle,CH-SUD,h,14.3,12
+PEL-06,Pelle,BASE VIE,h,15.2,12
+PEL-07,Pelle,CH-NORD,h,14.4,12
+PEL-08,Pelle,CH-EST,h,17.8,12
+CHG-01,Chargeuse,CH-NORD,h,12.9,12
+CHG-02,Chargeuse,CH-SUD,h,12.5,12
+CHG-03,Chargeuse,CH-SUD,h,12.1,12
+CHG-04,Chargeuse,CH-SUD,h,12.8,12
+CHG-05,Chargeuse,CH-EST,h,14.1,12
+CHG-06,Chargeuse,CH-NORD,h,13.7,12
+BUL-01,Bull,CH-EST,h,13.5,12
+BUL-02,Bull,CH-NORD,h,15.4,12
+BUL-03,Bull,CH-NORD,h,13.1,12
+BUL-04,Bull,CH-NORD,h,17.1,12
+BUL-05,Bull,CH-EST,h,15.2,12
+TOM-01,Tombereau,CH-NORD,h,9.4,15
+TOM-02,Tombereau,BASE VIE,h,12.9,15
+TOM-03,Tombereau,BASE VIE,h,12.2,15
+TOM-04,Tombereau,BASE VIE,h,9.9,15
+TOM-05,Tombereau,CH-NORD,h,9.4,15
+TOM-06,Tombereau,CH-EST,h,9.2,15
+TOM-07,Tombereau,CH-NORD,h,11.9,15
+TOM-08,Tombereau,CH-NORD,h,10.1,15
+TOM-09,Tombereau,CH-NORD,h,13.0,15
+TOM-10,Tombereau,CH-EST,h,12.5,15
+CAM-01,Camion,BASE VIE,km,29.0,15
+CAM-02,Camion,CH-EST,km,30.7,15
+CAM-03,Camion,BASE VIE,km,27.0,15
+CAM-04,Camion,CH-EST,km,27.5,15
+CAM-05,Camion,BASE VIE,km,30.5,15
+CAM-06,Camion,BASE VIE,km,29.1,15
+CAM-07,Camion,CH-NORD,km,33.6,15
+CAM-08,Camion,CH-SUD,km,31.2,15
+CAM-09,Camion,CH-SUD,km,34.7,15
+CAM-10,Camion,BASE VIE,km,26.9,15
+CAM-11,Camion,CH-NORD,km,30.7,15
+CAM-12,Camion,CH-EST,km,33.9,15
+GEN-01,Groupe electrogene,CH-SUD,h,9.6,15
+GEN-02,Groupe electrogene,CH-EST,h,7.8,15
+GEN-03,Groupe electrogene,CH-EST,h,8.6,15
+GEN-04,Groupe electrogene,BASE VIE,h,6.1,15
+NIV-01,Niveleuse,CH-NORD,h,12.8,12
+NIV-02,Niveleuse,CH-SUD,h,12.5,12
+NIV-03,Niveleuse,CH-SUD,h,12.3,12
