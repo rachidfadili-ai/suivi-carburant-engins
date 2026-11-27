@@ -1,4 +1,5 @@
 rapports/
 data_prive/
+data/carburant.csv
 __pycache__/
 *.pyc
